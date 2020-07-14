@@ -23,7 +23,7 @@ async function initPassport() {
     teamID: process.env.TEAM_ID,
     callbackURL: `https://www.kbjtown.com/api/auth/apple/callback`,
     keyID: process.env.KEY_ID,
-    privateKeyLocation: './AuthKey_WM66Y023YU.p8',
+    privateKeyLocation: './auth_key',
     // privateKeyString: '-----BEGIN PRIVATE KEY-----\n' +
     //   'MIGTAgEAMBMGByqGS*******CCqGSM49AwEHBHkwdwIBAQQgQAetDdWp5C1nYUnG\n' +
     //   'ZaygNzLXimFD*********lNt****CgYIKoZIzj0DAQehRANCAARPTlBY9eHN38qr\n' +
